@@ -1,5 +1,5 @@
 {
-    "name": "erangel/user-service",
+    "name": "edurangel/user-service",
     "require": {
         "laravel/framework": "^8.83"
     },
@@ -7,5 +7,12 @@
         "psr-4": {
             "Erangel\\UserService\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Eduardo Rangel"
+        }
+    ]
 }
